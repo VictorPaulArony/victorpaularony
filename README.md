@@ -3,9 +3,9 @@
 
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/98453453?v=4" alt="Profile Picture" width="200"/>
-  <img src ="https://img.shields.io/github/followers/VictorPaulArony?style=social" alt = "follower"/>
-  
-<img src = "https://img.shields.io/github/stars/VictorPaulArony?style=social" alt = "stars"/>
+  <br/>
+  <img src="https://img.shields.io/github/followers/VictorPaulArony?style=social" alt="GitHub followers"/>
+  <img src="https://img.shields.io/github/stars/VictorPaulArony?style=social" alt="GitHub stars"/>
 </div>
 
 
