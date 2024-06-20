@@ -1,11 +1,15 @@
 
 <h2 align='center'><i>⚡  Hi there 👋, I'm Victor Paul Arony</i></h2>
 
-![Profile views](https://gpvc.arturio.dev/VictorPaulArony)
-![GitHub followers](https://img.shields.io/github/followers/VictorPaulArony?style=social)
-![GitHub stars](https://img.shields.io/github/stars/VictorPaulArony?style=social)
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/98453453?v=4" alt="Profile Picture" width="200"/>
+  <img src ="https://img.shields.io/github/followers/VictorPaulArony?style=social" alt = "follower"/>
+  
+<img src = "https://img.shields.io/github/stars/VictorPaulArony?style=social" alt = "stars"/>
+</div>
 
-## About Me
+
+# About Me
 I'm a passionate developer constantly looking to expand my skills and collaborate on exciting projects. My interests lie in software development, and I enjoy working with various technologies to create impactful solutions.
 
 - 🔭 I’m currently working on [zone01Kisumu projects]
