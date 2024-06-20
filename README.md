@@ -2,8 +2,7 @@
 <h2 align='center'><i>⚡  Hi there 👋, I'm Victor Paul Arony</i></h2>
 
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/98453453?v=4" alt="Profile Picture" width="200"/>
-  <br/>
+ 
   <img src="https://img.shields.io/github/followers/VictorPaulArony?style=social" alt="GitHub followers"/>
   <img src="https://img.shields.io/github/stars/VictorPaulArony?style=social" alt="GitHub stars"/>
 </div>
