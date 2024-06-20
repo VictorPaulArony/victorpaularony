@@ -1,13 +1,6 @@
 
 <h2 align='center'><i>⚡  Hi there 👋, I'm Victor Paul Arony</i></h2>
 
-<div align="center">
- 
-  <img src="https://img.shields.io/github/followers/VictorPaulArony?style=social" alt="GitHub followers"/>
-  <img src="https://img.shields.io/github/stars/VictorPaulArony?style=social" alt="GitHub stars"/>
-</div>
-
-
 # About Me
 I'm a passionate developer constantly looking to expand my skills and collaborate on exciting projects. My interests lie in software development, and I enjoy working with various technologies to create impactful solutions.
 
@@ -30,6 +23,25 @@ I'm a passionate developer constantly looking to expand my skills and collaborat
 - **Frameworks**: ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react), ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
 - **Tools**: ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git), ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker), ![VSCode](https://img.shields.io/badge/-VSCode-black?style=flat-square&logo=visual-studio-code)
 
+## 💼 Experience
+- [Apprentice Software Developer](https://www.zone01kisumu.ke/)
+- **Apprentice Software Developer at zone01Kisumu**
+  - Contributed to the development of various software projects, gaining hands-on experience with modern programming languages and development tools.
+  - Collaborated with senior developers and participated in code reviews, improving code quality and learning best practices.
+  - Assisted in the design and implementation of new features and functionalities for web and mobile applications.
+  - Participated in team meetings and brainstorming sessions, providing input on project requirements and technical solutions.
+  - Engaged in continuous learning and professional development, staying updated with the latest industry trends and technologies.
+
+- [ICT Officer at Ugunja Sub-count Office](https://companywebsite.com)
+- **ICT Officer at Ugunja Sub-county Office**
+- Spearheaded the implementation and management of information and communication technology systems to enhance operational efficiency and service delivery.
+-  Key responsibilities included:
+  - Administering and maintaining the office's IT infrastructure, including servers, network devices, and software applications.
+  - Providing technical support and training to staff on the use of IT resources.
+  - Ensuring data security and integrity through regular backups and implementing cybersecurity measures.
+  - Collaborating with various departments to develop and deploy IT solutions that improve workflow and communication.
+  - Managing the procurement and inventory of IT equipment and software licenses.
+
 ## 🔗 Connect with me
 - [LinkedIn](https://linkedin.com/in/victor-arony-896b93241)
 
@@ -51,29 +63,7 @@ I'm a passionate developer constantly looking to expand my skills and collaborat
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VictorPaulArony&layout=compact&theme=dark)
 
 
-## 💼 Experience
-- [Apprentice Software Developer](https://www.zone01kisumu.ke/)
-- **Apprentice Software Developer at zone01Kisumu**
-  - Contributed to the development of various software projects, gaining hands-on experience with modern programming languages and development tools.
-  - Collaborated with senior developers and participated in code reviews, improving code quality and learning best practices.
-  - Assisted in the design and implementation of new features and functionalities for web and mobile applications.
-  - Participated in team meetings and brainstorming sessions, providing input on project requirements and technical solutions.
-  - Engaged in continuous learning and professional development, staying updated with the latest industry trends and technologies.
-
-- [ICT Officer at Ugunja Sub-count Office](https://companywebsite.com)
-- **ICT Officer at Ugunja Sub-county Office**
-- Spearheaded the implementation and management of information and communication technology systems to enhance operational efficiency and service delivery.
--  Key responsibilities included:
-  - Administering and maintaining the office's IT infrastructure, including servers, network devices, and software applications.
-  - Providing technical support and training to staff on the use of IT resources.
-  - Ensuring data security and integrity through regular backups and implementing cybersecurity measures.
-  - Collaborating with various departments to develop and deploy IT solutions that improve workflow and communication.
-  - Managing the procurement and inventory of IT equipment and software licenses.
-
-
 ## 📝 License
 - This profile README is licensed under the [MIT License](LICENSE).
 
 ---
-
-
