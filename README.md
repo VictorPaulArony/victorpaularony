@@ -7,13 +7,11 @@
 ## About Me
 I'm a passionate developer constantly looking to expand my skills and collaborate on exciting projects. My interests lie in software development, and I enjoy working with various technologies to create impactful solutions.
 
-- 🔭 I’m currently working on [Current Project or Interest Area]
-- 🌱 I’m currently learning [Current Learning or Technology]
-- 👯 I’m looking to collaborate on [Collaboration Interests]
-- 🤔 I’m looking for help with [Any area you need help with]
-- 💬 Ask me about [Your expertise or favorite technology]
-- 📫 How to reach me: [Your Email/LinkedIn]
-- ⚡ Fun fact: [A fun fact about yourself]
+- 🔭 I’m currently working on [zone01Kisumu projects]
+- 🌱 I’m currently learning [Go language ]
+- 🤔 I’m looking for help with [Any Go language related projects]
+- 💬 Ask me about [Go language, php, C language ,HTML and CSS]
+- ⚡ Fun fact: [Stars dont shine because they want to be seen, they shine because they are stars]
 
 ## 🛠️ Skills and Technologies
 - **Languages**: ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript), ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python), ![Java](https://img.shields.io/badge/-Java-black?style=flat-square&logo=java)
