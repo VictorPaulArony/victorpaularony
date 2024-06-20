@@ -15,7 +15,15 @@ I'm a passionate developer constantly looking to expand my skills and collaborat
 - ⚡ Fun fact: [Stars dont shine because they want to be seen, they shine because they are stars]
 
 ## 🛠️ Skills and Technologies
-- **Languages**: ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript), ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python), ![Java](https://img.shields.io/badge/-Java-black?style=flat-square&logo=java)
+- **Languages**: 
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript) 
+  ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python) 
+  ![Java](https://img.shields.io/badge/-Java-black?style=flat-square&logo=java)
+  ![Go](https://img.shields.io/badge/-Go-black?style=flat-square&logo=go)
+  ![C](https://img.shields.io/badge/-C-black?style=flat-square&logo=c)
+  ![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5)
+  ![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)
+  ![PHP](https://img.shields.io/badge/-PHP-black?style=flat-square&logo=php)
 - **Frameworks**: ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react), ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
 - **Tools**: ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git), ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker), ![VSCode](https://img.shields.io/badge/-VSCode-black?style=flat-square&logo=visual-studio-code)
 
@@ -39,17 +47,9 @@ I'm a passionate developer constantly looking to expand my skills and collaborat
 ## 📊 Top Languages
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VictorPaulArony&layout=compact&theme=dark)
 
-## 🚀 Projects
-<!--
-- [Project Name](https://github.com/VictorPaulArony/project-repo) - A brief description of the project.
-- [Another Project](https://github.com/VictorPaulArony/another-project-repo) - A brief description of this project.
--->
-## 📄 Blog Posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
 
 ## 💼 Experience
-- [Apprentice Software Developer](https://https://learn.zone01kisumu.ke/)
+- [Apprentice Software Developer](https://www.zone01kisumu.ke/)
 - **Apprentice Software Developer at zone01Kisumu**
   - Contributed to the development of various software projects, gaining hands-on experience with modern programming languages and development tools.
   - Collaborated with senior developers and participated in code reviews, improving code quality and learning best practices.
