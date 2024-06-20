@@ -1,4 +1,5 @@
-# Hi there 👋, I'm Victor Paul Arony
+
+<h2 align='center'><i>⚡  Hi there 👋, I'm Victor Paul Arony</i></h2>
 
 ![Profile views](https://gpvc.arturio.dev/VictorPaulArony)
 ![GitHub followers](https://img.shields.io/github/followers/VictorPaulArony?style=social)
@@ -19,12 +20,18 @@ I'm a passionate developer constantly looking to expand my skills and collaborat
 - **Tools**: ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git), ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker), ![VSCode](https://img.shields.io/badge/-VSCode-black?style=flat-square&logo=visual-studio-code)
 
 ## 🔗 Connect with me
-- [LinkedIn](https://www.linkedin.com/in/yourlinkedin)
-- [Twitter](https://twitter.com/yourtwitter)
-- [Personal Website](https://yourwebsite.com)
+- [LinkedIn](https://linkedin.com/in/victor-arony-896b93241)
 
 ## 📈 GitHub Stats
-![VictorPaulArony's GitHub stats](https://github-readme-stats.vercel.app/api?username=VictorPaulArony&show_icons=true&hide_border=true&theme=dark)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=VictorPaulArony&show_icons=true&hide_border=true&theme=radical" alt="GitHub Stats"/>
+  <br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorPaulArony&theme=radical" alt="Profile Details"/>
+  <br/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VictorPaulArony&theme=dark" alt="Repositories per Language"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=VictorPaulArony&theme=dark" alt="Most Commit Language"/>
+</div>
+
 
 ## 🏆 GitHub Trophies
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=VictorPaulArony&theme=darkhub)
