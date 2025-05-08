@@ -4,7 +4,7 @@
 # About Me
 I'm a passionate developer constantly looking to expand my skills and collaborate on exciting projects. My interests lie in software development, and I enjoy working with various technologies to create impactful solutions.
 
-- 🔭 I’m currently working at ![zone01Kisumu projects]
+- 🔭 I’m currently working at [zone01Kisumu projects]
 - 🌱 I’m currently learning [Go language , Rust, Javascrip, Solidity, Java]
 - ⚡ Fun fact: [Stars dont shine because they want to be seen, they shine because they are stars]
 
