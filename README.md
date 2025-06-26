@@ -32,8 +32,6 @@ Victor Paul Arony is a software developer with 2 years of experience in the tech
 
 ## 📈 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VictorPaulArony&show_icons=true&hide_border=true&theme=radical" alt="GitHub Stats"/>
-  <br/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorPaulArony&theme=radical" alt="Profile Details"/>
   <br/>
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VictorPaulArony&theme=dark" alt="Repositories per Language"/>
