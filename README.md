@@ -2,11 +2,7 @@
 <h2 align='center'><i>⚡  Hi there 👋, I'm Victor Paul Arony</i></h2>
 
 # About Me
-Victor Paul Arony is a software developer with 2 years of experience in the tech industry with a background in fronted, backend and smart contract development, he has build an DEX hybrid platform for Ksh to Sui currency. Currently Arony works at zone01 kisumu where he is a Fullstack developer using language like Go, Java and JavaScript. In addition to that he is passionate and enthusiastic about the cryptography and blockchain technology.
-
-- 🔭 I’m currently working at [zone01Kisumu projects]
-- 🌱 I’m currently learning [Go language , Rust, Javascrip, Solidity, Java]
-- ⚡ Fun fact: [Stars dont shine because they want to be seen, they shine because they are stars]
+Victor Paul Arony is a software developer with experience in the tech industry with a background in fronted, backend and smart contract development, he has build an DEX hybrid platform for Ksh to Sui currency. Currently Arony works at zone01 kisumu where he is a Fullstack developer using language like Go, Java and JavaScript. In addition to that he is passionate and enthusiastic about the cryptography and blockchain technology.
 
 ## 🛠️ Skills and Technologies
 - **Languages**: 
