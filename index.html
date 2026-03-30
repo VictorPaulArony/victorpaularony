@@ -7,6 +7,7 @@
     <title>Victor Paul Arony - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 
 <body>
@@ -20,10 +21,23 @@
         </div>
     </header>
 
+    <!-- About + Skills side-by-side layout -->
+    <div class="about-skills-wrapper">
+
     <!-- About Section -->
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
+
+            <!-- GitHub Profile Card (populated dynamically) -->
+            <div class="gh-profile-card">
+                <img id="gh-avatar" src="images/image 17.svg" alt="Victor Paul Arony" class="gh-avatar">
+                <div class="gh-profile-info">
+                    <p id="gh-location"></p>
+                    <div id="gh-stats" class="gh-stats"></div>
+                </div>
+            </div>
+
             <p>Welcome! I am Victor Paul Arony, a passionate software developer specializing in innovative fintech
                 solutions, blockchain technology, and efficient backend systems. With experience in Golang, data
                 encryption, and distributed systems, I aim to create impactful, scalable applications that solve
@@ -59,131 +73,34 @@
     <section id="portfolio">
         <div class="container">
             <h2>My Projects</h2>
-            <div class="projects">
-                <div class="project-card">
-                    <img src="images/blockchain.png" alt="Project 1">
-                    <h3>Student Certification System</h3>
-                    <p>A blockchain-backed certification system ensuring secure validation and transparent access.</p>
-                    <p><strong>Tech Stack:</strong> Golang, MongoDB, Blockchain</p>
-                    <p><strong>Key Features:</strong></p>
-                    <ul>
-                        <li>Secure certificate validation</li>
-                        <li>Transparent access for institutions</li>
-                        <li>Smart contract implementation</li>
-                    </ul>
-                    <a href="https://github.com/VictorPaulArony/certification-system" target="_blank">View on GitHub</a>
-                </div>
-                <div class="project-card">
-                    <img src="images/golang.png" alt="Project 2">
-                    <h3>Groupie Tracker</h3>
-                    <p>An advanced search and filter system improving user experience for music enthusiasts.</p>
-                    <p><strong>Tech Stack:</strong> JavaScript, REST APIs</p>
-                    <p><strong>Key Features:</strong></p>
-                    <ul>
-                        <li>Real-time data integration</li>
-                        <li>User-friendly interface</li>
-                        <li>Advanced search functionalities</li>
-                    </ul>
-                    <a href="https://github.com/moseeh/Go-Projects/tree/main/groupie-tracker" target="_blank">View on
-                        GitHub</a>
-                </div>
-                <div class="project-card">
-                    <img src="images/golang.png" alt="Student Certification System">
-                    <h3>Blockchain Using Golang</h3>
-                    <p>A blockchain-backed using Go language as core language to build systems ensuring secure
-                        validation and transparent access for
-                        all the blocks from basic blockchain to advance blockchain</p>
-                    <p><strong>Tech Stack:</strong> Go language, Blockchain</p>
-                    <p><strong>Key Features:</strong></p>
-                    <ul>
-                        <li>Simple blockchain </li>
-                        <li>Wallet creation </li>
-                        <li>Transactions creation and Digital signature</li>
-                        <li>UTX implementation and Mempool implementation</li>
-                        <li>peer to peer transaction implementation</li>
-                        <a href="https://github.com/VictorPaulArony/Blockchain-golang" target="_blank">View on
-                            GitHub</a>
-                </div>
-                <div class="project-card">
-                    <img src="images/blockchain.png" alt="Project 1">
-                    <h3>waste_EcoTrack system</h3>
-                    <p>A blockchain-backed Smart cities waste-collection system ensuring secure validation and
-                        transparent access. By rewarding incentives to the collectors </p>
-                    <p><strong>Tech Stack:</strong> Go language, Blockchain</p>
-                    <p><strong>Key Features:</strong></p>
-                    <ul>
-                        <li>best ways of waste collection</li>
-                        <li>Transparent access for collectors</li>
-                        <li>incentives rewarding to the collectors</li>
-                        <li>Smart contract implementation</li>
-                    </ul>
-                    <a href="https://github.com/VictorPaulArony/Blockchain-golang/tree/main/waste_EcoTrack"
-                        target="_blank">View on GitHub</a>
+            <p class="section-subtitle">Fetched live from <a href="https://github.com/VictorPaulArony" target="_blank">GitHub</a></p>
+            <div class="projects" id="projects-grid">
+                <!-- Project cards are injected dynamically from GitHub API -->
+                <div class="gh-loading">
+                    <div class="gh-spinner"></div>
+                    <p>Loading projects from GitHub...</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- programming skills -->
+    <!-- Programming Skills -->
     <div class="skills">
         <div class="skill">
             <h4>Programming Languages</h4>
-            <!-- <p>Golang, JavaScript, HTML, CSS, SQL</p> -->
-            <div class="using-now ">
-                <h4>USING NOW:</h4>
-                <div class="grid-skills">
-                    <div class="grid-item">
-                        <img src="./images/html.svg" alt="">
-                        <h6>HTML5</h6>
-
-                    </div>
-                    <div class="grid-item">
-                        <img src="./images/css.svg" alt="">
-                        <h6>CSS3</h6>
-                    </div>
-                    <div class="grid-item">
-                        <img src="./images/javascript.svg" alt="">
-                        <h6>JavaScript</h6>
-                    </div>
-                    <div class="grid-item">
-                        <img src="./images/react.svg" alt="">
-                        <h6>React</h6>
-                    </div>
-                    <div class="grid-item">
-                        <img src="./images/Git-Icon-1788C 1.png" alt="">
-                        <h6>Git</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <h4>Technologies & Frameworks</h4>
-                <!-- <p>Blockchain, MongoDB, Docker, REST APIs</p> -->
-                <div class="learning-now ">
-                    <h4>LEARNING NOW:</h4>
-                    <div class="grid-skills">
-                        <div class="grid-item">
-                            <img src="./images/nodejs.png" alt="">
-                            <h6>Node Js</h6>
-
-                        </div>
-                        <div class="grid-item">
-                            <img src="./images/mongoDb.png" alt="">
-                            <h6>Mongo DB</h6>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./images/typscript.png" alt="">
-                            <h6>TypeScript</h6>
-                        </div>
-                    </div>
-
+            <div class="using-now">
+                <h4>USING NOW: <span class="skills-source">from GitHub</span></h4>
+                <div class="grid-skills" id="skills-using-grid">
+                    <div class="gh-loading"><div class="gh-spinner"></div></div>
                 </div>
             </div>
         </div>
+
         <section id="skills">
             <div class="container">
                 <div class="row">
                     <h2 class="title text-uppercase">Technical Skills</h2>
-                    <span class="sub_title">A brief overview </span>
+                    <span class="sub_title">Based on GitHub repository activity</span>
                 </div>
                 <div class="my_skill">
                     <div class="row">
@@ -196,54 +113,16 @@
                             systems.</p>
                     </div>
                     <div class="col-md-12 col-lg-6">
-                        <div class="skill-progress wow animated slideInRight">
-                            <div class="prgs-bar fact-counter">
-                                <span>Golang</span>
-                                <div class="progress count wow" data-wow-duration="10ms">
-                                    <div class="skill-percent"><span class="count-num" data-speed="3000"
-                                            data-stop="90">90</span>%</div>
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemax="100"
-                                        style="width: 90%;"></div>
-                                </div>
-                            </div>
-                            <div class="prgs-bar fact-counter"> <span>JavaScript</span>
-                                <div class="progress count wow" data-wow-duration="0ms">
-                                    <div class="skill-percent"><span class="count-num" data-speed="3000"
-                                            data-stop="85">85</span>%</div>
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemax="100"
-                                        style="width: 85%;"></div>
-                                </div>
-                            </div>
-                            <div class="prgs-bar fact-counter"> <span>Blockchain</span>
-                                <div class="progress count wow" data-wow-duration="0ms">
-                                    <div class="skill-percent"><span class="count-num" data-speed="3000"
-                                            data-stop="80">80</span>%</div>
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemax="100"
-                                        style="width: 80%;"></div>
-                                </div>
-                            </div>
-                            <div class="prgs-bar fact-counter"> <span>MongoDB</span>
-                                <div class="progress count wow" data-wow-duration="0ms">
-                                    <div class="skill-percent"><span class="count-num" data-speed="3000"
-                                            data-stop="85">85</span>%</div>
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemax="100"
-                                        style="width: 85%;"></div>
-                                </div>
-                            </div>
-                            <div class="prgs-bar fact-counter"> <span>REST APIs</span>
-                                <div class="progress count wow" data-wow-duration="0ms">
-                                    <div class="skill-percent"><span class="count-num" data-speed="3000"
-                                            data-stop="90">90</span>%</div>
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemax="100"
-                                        style="width: 90%;"></div>
-                                </div>
-                            </div>
+                        <div class="skill-progress" id="tech-skills-bars">
+                            <div class="gh-loading"><div class="gh-spinner"></div></div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
     </div>
-    </section>
+
+    </div><!-- end .about-skills-wrapper -->
 
 
     <!-- Contact Section -->
