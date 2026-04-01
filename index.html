@@ -11,142 +11,68 @@
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header id="home">
-        <div class="container">
-            <h1>Victor Paul Arony</h1>
-            <p>Software Developer | Blockchain Enthusiast | Fintech Innovator</p>
-            <a href="#portfolio" class="btn">Explore My Work</a>
-            <a href="#contact" class="btn">Get in Touch</a>
+
+    <!-- ── Row 1: Profile (left) + Languages & Skills (right) ────────────── -->
+    <div class="top-row">
+
+        <!-- LEFT: Profile Card -->
+        <div class="profile-card">
+            <img id="gh-avatar" src="images/profile.svg" alt="Victor Paul Arony" class="gh-avatar">
+            <h1 class="profile-name">Victor Paul Arony</h1>
+            <p class="profile-bio">Software Developer | Blockchain Enthusiast | Fintech Innovator</p>
+            <p class="profile-about">I am a passionate software developer specializing in innovative fintech solutions, blockchain technology, and efficient backend systems. With experience in Golang, data encryption, and distributed systems, I create impactful, scalable applications that solve real-world problems.</p>
+            <a href="resume.docx.pdf" download class="btn-download">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+            <div id="gh-stats" class="gh-stats"></div>
         </div>
-    </header>
 
-    <!-- About + Skills side-by-side layout -->
-    <div class="about-skills-wrapper">
+        <!-- RIGHT: Languages + Technical Skills -->
+        <div class="skills-panel">
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-
-            <!-- GitHub Profile Card (populated dynamically) -->
-            <div class="gh-profile-card">
-                <img id="gh-avatar" src="images/image 17.svg" alt="Victor Paul Arony" class="gh-avatar">
-                <div class="gh-profile-info">
-                    <p id="gh-location"></p>
-                    <div id="gh-stats" class="gh-stats"></div>
-                </div>
-            </div>
-
-            <p>Welcome! I am Victor Paul Arony, a passionate software developer specializing in innovative fintech
-                solutions, blockchain technology, and efficient backend systems. With experience in Golang, data
-                encryption, and distributed systems, I aim to create impactful, scalable applications that solve
-                real-world problems.</p>
-            <h3>Professional Background</h3>
-            <p>My journey in software development began with a deep interest in technology, leading me to pursue a
-                degree in Computer Science. I've worked on various innovative projects that have shaped my skills and
-                vision in fintech and blockchain.</p>
-            <h3>Core Skills and Tools</h3>
-            <p>
-                Programming Languages: Proficient in Go (Golang), Python, JavaScript, and C++. I have utilized these
-                languages to develop backend services, web applications, and automation scripts.
-                Web Development: Experienced in building responsive web applications using HTML, CSS, JavaScript, and
-                frameworks like React.js.
-                Database Management: Familiar with SQL databases such as PostgreSQL and MySQL, as well as NoSQL
-                databases like MongoDB.
-                Version Control: Skilled in using Git for version control, enabling effective collaboration on projects.
-                APIs & Microservices: Knowledgeable in designing RESTful APIs and working with microservices
-                architecture to enhance application scalability.
-                DevOps Practices: Understanding of CI/CD pipelines, containerization with Docker, and cloud services
-                like AWS for deploying applications.
-            </p>
-            <h3>Strengths & Interests</h3>
-            <p>I am particularly interested in the potential of blockchain for secure transactions and innovative
-                fintech solutions. I continually enhance my skills by exploring advanced cryptographic methods and
-                upcoming blockchain protocols.</p>
-
-            <a href="resume.docx.pdf" download class="btn">Download Resume</a>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <div class="container">
-            <h2>My Projects</h2>
-            <p class="section-subtitle">Fetched live from <a href="https://github.com/VictorPaulArony" target="_blank">GitHub</a></p>
-            <div class="projects" id="projects-grid">
-                <!-- Project cards are injected dynamically from GitHub API -->
-                <div class="gh-loading">
-                    <div class="gh-spinner"></div>
-                    <p>Loading projects from GitHub...</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Programming Skills -->
-    <div class="skills">
-        <div class="skill">
-            <h4>Programming Languages</h4>
-            <div class="using-now">
-                <h4>USING NOW: <span class="skills-source">from GitHub</span></h4>
+            <!-- Programming Languages -->
+            <div class="skills-block">
+                <h3 class="block-heading">Programming Languages <span class="skills-source">from GitHub</span></h3>
                 <div class="grid-skills" id="skills-using-grid">
                     <div class="gh-loading"><div class="gh-spinner"></div></div>
                 </div>
             </div>
-        </div>
 
-        <section id="skills">
-            <div class="container">
-                <div class="row">
-                    <h2 class="title text-uppercase">Technical Skills</h2>
-                    <span class="sub_title">Based on GitHub repository activity</span>
-                </div>
-                <div class="my_skill">
-                    <div class="row">
-                        <h2 class="color_primary">Professional Skills Overview</h2>
-                        <p class="pt_15">I specialize in developing innovative fintech solutions and blockchain
-                            applications. My skills include backend development with Golang and database
-                            management with MongoDB.</p>
-                        <p class="pt_15">With a strong foundation in programming and a passion for continuous
-                            learning, I strive to enhance my expertise in secure transactions and distributed
-                            systems.</p>
-                    </div>
-                    <div class="col-md-12 col-lg-6">
-                        <div class="skill-progress" id="tech-skills-bars">
-                            <div class="gh-loading"><div class="gh-spinner"></div></div>
-                        </div>
-                    </div>
+            <!-- Technical Skills -->
+            <div class="skills-block" id="skills">
+                <h3 class="block-heading">Technical Skills <span class="sub_title">— based on GitHub activity</span></h3>
+                <div class="skill-progress" id="tech-skills-bars">
+                    <div class="gh-loading"><div class="gh-spinner"></div></div>
                 </div>
             </div>
-        </section>
+
+        </div>
     </div>
 
-    </div><!-- end .about-skills-wrapper -->
 
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contactForm">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="text" placeholder="Subject" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <a href="mailto:victorpaularony@gmail.com"><button type="submit">Send Message</button></a>
-            </form>
-
+    <!-- ── Row 3: My Projects ─────────────────────────────────────────────── -->
+    <section class="projects-row" id="portfolio">
+        <h2 class="section-heading">My Projects</h2>
+        <p class="section-subtitle">Fetched live from <a href="https://github.com/VictorPaulArony" target="_blank">GitHub</a></p>
+        <div class="projects" id="projects-grid">
+            <div class="gh-loading">
+                <div class="gh-spinner"></div>
+                <p>Loading projects from GitHub...</p>
+            </div>
         </div>
     </section>
+
+
+    <!-- ── Footer ─────────────────────────────────────────────────────────── -->
     <footer>
-        <div class="social-links">
-            <a href="https://github.com/VictorPaulArony" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/victor-arony-896b93241/" target="_blank"><i
-                    class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/VictorPaulArony" target="_blank"><i class="fab fa-twitter"></i></a>
+        <div class="footer-card">
+            <div class="social-links">
+                <a href="https://github.com/VictorPaulArony" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/victor-arony-896b93241/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/VictorPaulArony" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>Or reach me directly at: <a href="mailto:victorpaularony@gmail.com">victorpaularony@gmail.com</a></p>
         </div>
-        <p>Or reach me directly at: <a href="mailto:victorpaularony@gmail.com">victorpaularony@gmail.com</a></p>
     </footer>
 
     <script src="js/main.js"></script>
