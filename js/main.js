@@ -49,12 +49,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// ── Contact Form ─────────────────────────────────────────────────────────────
-document.getElementById('contactForm').addEventListener('submit', function (e) {
-  e.preventDefault();
-  alert('Message sent! Thank you for reaching out.');
-});
-
 // ── GitHub API helpers ────────────────────────────────────────────────────────
 async function ghFetch(path) {
   const res = await fetch(`${GITHUB_API}${path}`);
@@ -77,6 +71,8 @@ function renderProfile(p) {
     avatar.src = p.avatar_url;
     avatar.alt = p.name || GITHUB_USERNAME;
   }
+
+  document.documentElement.style.setProperty('--profile-bg', `url(${p.avatar_url})`);
 
   const loc = document.getElementById('gh-location');
   if (loc && p.location) {
@@ -143,7 +139,6 @@ function renderProjects(repos) {
 
   grid.innerHTML = list.map(repo => {
     const lang = repo.language || 'Code';
-    const color = langColor(repo.language);
     const topics = (repo.topics || [])
       .slice(0, 5)
       .map(t => `<span class="repo-topic">${t}</span>`)
@@ -156,8 +151,8 @@ function renderProjects(repos) {
 
     return `
       <div class="project-card">
-        <div class="repo-header" style="background: linear-gradient(135deg, ${color}40, ${color}80);">
-          <span class="repo-lang-dot" style="background:${color}"></span>
+        <div class="repo-header">
+          <span class="repo-lang-dot"></span>
           <span class="repo-lang-name">${lang}</span>
           ${repo.stargazers_count > 0
             ? `<span class="repo-stars"><i class="fas fa-star"></i> ${repo.stargazers_count}</span>`
@@ -224,16 +219,15 @@ function renderSkillBars(langs) {
   const container = document.getElementById('tech-skills-bars');
   if (!container) return;
 
-  container.innerHTML = langs.slice(0, 7).map(({ lang, percent }) => {
-    const color = langColor(lang);
+  container.innerHTML = langs.slice(0, 4).map(({ lang, percent }) => {
     return `
       <div class="prgs-bar">
         <span>${lang}</span>
         <div class="progress">
-          <div class="skill-percent"><span>${percent}</span>%</div>
+          <div class="skill-percent">${percent}%</div>
           <div class="progress-bar" role="progressbar"
             aria-valuenow="${percent}" aria-valuemax="100"
-            style="width:${percent}%; background-color:${color};"></div>
+            style="width:${percent}%;"></div>
         </div>
       </div>
     `;
